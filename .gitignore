@@ -1,32 +1,33 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
+*.bat
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Paths
+Build/
+.vscode
+sonar-project.properties
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+Lab1.rtf
+Lab2.rtf
+Lab3.rtf
+Lab4.rtf
+Lab5.rtf
 
-# Executables
-*.exe
-*.out
-*.app
+### SonarQube ###
+# SonarQube ignore files.
+#
+# https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+# Sonar Scanner working directories
+.sonar/
+.scannerwork/
+bw-output
+
+# http://www.sonarlint.org/commandline/
+# SonarLint working directories, configuration files (including credentials)
+.sonarlint/
+
+launhSolarTest.bat
